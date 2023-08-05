@@ -14,12 +14,12 @@
         text-decoration: none;
         cursor: pointer;
       }
-      .try-now1 a {
+      .try-now1 {
         color: inherit;
         text-decoration: none;
         cursor: pointer;
       }
-      .sign-up1 a {
+      .sign-up1 {
         color: inherit;
         text-decoration: none;
         cursor: pointer;
@@ -49,17 +49,16 @@
           <p class="mental-health">For Gen Z</p>
         </b>
         <b class="tiu-2">Howde ChatBot</b>
-        <a href="/register">
           <div class="try-now">
             <div class="try-now-child"></div>
-            <div class="try-now1">Try now</div>
+            <a href="/register" class="try-now1">Try now</a>
         </div>
         <div class="sign-up">
           <div class="sign-up-child"></div>
           <div class="sign-up-item"></div>
           <img class="vector-icon" alt="" src="{{ url_for('static', filename='public/vector.svg') }}" />
 
-          <div class="sign-up1">Sign Up</div>
+          <a href="/register" class="sign-up1">Register</a>
         </div>
       </div>
       <div class="introduce">
