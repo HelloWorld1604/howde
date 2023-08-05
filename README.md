@@ -1,6 +1,5 @@
 things done:
-- deploy homepage
-- make Home Chat Diary Status Friends redirect to pages.
+- homepage completed (/)
 
 
 
