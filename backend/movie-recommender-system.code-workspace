@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../../movie-recommender-system-tmdb-dataset"
+		},
+		{
+			"path": "../Coursera/dataset"
+		}
+	],
+	"settings": {}
+}
